@@ -1,0 +1,137 @@
+@font-face {
+    font-family: roboto-medium;
+    src: url(assets/fonts/Roboto-Medium.ttf);
+  }
+
+body {
+    background-image: url("assets/wallpaper.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+    background-color: #1E1E1E;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row {
+    margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+table {
+    table-layout: fixed;
+  }
+  
+  th,
+  td {
+    width: 100px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+  }
+
+.arrow {
+    margin-top: 1rem;
+    padding: .1rem;
+    fill: #fff;
+
+}
+
+.surface {
+    background-color: #47306b8a;
+    box-shadow: 2px 2px rgb(0 0 0 / 13%);
+    border-radius: .25rem;
+}
+
+.arrowleft {
+    float: right;
+}
+
+.arrowright {
+    float: left;
+}
+
+.date {
+    font-size: 1.4rem;
+    margin: auto;
+    width: 50%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    text-align: center;
+}
+
+.time {
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #ffff;
+    text-shadow: 2px 2px rgb(0 0 0 / 13%);
+
+    margin: auto;
+    padding-left: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: left;
+    float: left;
+}
+
+.time-divide {
+    width: 1rem;
+}
+
+.calendar{
+    
+    font-size: 1rem;
+   /* padding-left: 1rem;*/
+    padding-top: 1rem;
+    margin: auto;
+}
+.calendar-column{
+}
+.calendar-dull{
+    color: rgba(255, 255, 255, 0.329)
+}
+.calendar-circled{
+    border: 1px solid #fff;
+    color: black;
+    mix-blend-mode: screen;
+    background-color: #ffff;
+    border-radius: 200px;
+}
+
+.panel {
+    background-color: #47306b8a;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffff;
+    border-radius: .25rem;
+    box-shadow: 4px 4px rgb(0 0 0 / 13%);
+    margin-top: 5%;
+    
+}
+
+.box-panel{
+    height: 200px;
+    width: 300px;
+}
+
+
+
+hr.solid {
+    /* border-top: 3px solid #ffff;*/
+    color: #ffff;
+    float: center;
+    margin: auto;
+    width: 90%;
+}
