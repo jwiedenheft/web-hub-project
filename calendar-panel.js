@@ -53,7 +53,7 @@ function makeCalendar() {
             firstrow.appendChild(column);
         } else {
             column.className = "calendar-dull";
-            const previousmonth = today.getMonth() - 1;
+            var previousmonth = today.getMonth() - 1;
             if (previousmonth < 0) previousmonth = 12 - (previousmonth + 1);
             column.innerHTML = lengthofmonth[previousmonth] - l;
             firstrow.appendChild(column);
